@@ -11,14 +11,17 @@
 
 </head>
 <body>
+    <div class="bg-secondary text-center p-2 ">
+        <h2> Book Information Searching Tools</h2>
+
+    </div>
     <div class="input-group m-5 w-50 mx-auto">
         <input id="search_field" type="text" class="form-control" placeholder="Type book info (ex: javascript)" aria-label="Recipient's username" aria-describedby="search_button">
         <button onclick="searchBook()" class="btn btn-outline-secondary" type="button" id="search_button">Search</button>
         </div>
-        <div class="w-50 mx-auto">
-            <h2> Welcome to my Book Store</h2>
-
+        <div id="error_msg" >
         </div>
+                
         <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
         </div>
    
